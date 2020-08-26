@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Aug 25 18:34:13 IST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0174-25b8-0a74-00000787de18 
+on database directory memory:E:\Gana\workspaces\JavaFullStack\employee_utility_app\testdb with class loader sun.misc.Launcher$AppClassLoader@4e0e2f2a 
+Loaded from file:/C:/Users/dell/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_60-b27
+user.dir=E:\Gana\workspaces\JavaFullStack\employee_utility_app
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

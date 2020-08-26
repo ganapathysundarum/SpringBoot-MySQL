@@ -1,0 +1,11 @@
+1. Unzip the file
+2. Run the MySQL server and execute the file "employee-utility.sql"
+   it will create all tables, insert data into tables and create stored procedure  
+3. Run the "employee_utility_app-0.0.1-SNAPSHOT.war" by given command below,
+   java -jar employee_utility_app-0.0.1-SNAPSHOT.war
+4. open browser and hit the below URL
+   http://localhost:8080/login
+5. Try login with "Ganapathi/ganapathi" to see the employee results
+
+
+
