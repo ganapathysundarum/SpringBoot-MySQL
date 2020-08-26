@@ -15,6 +15,14 @@ public class Employee {
 	public float tax_component;
 	public String login_name;
 	public String password;
+	public String ifscCode;
+	
+	public String getIfscCode() {
+		return ifscCode;
+	}
+	public void setIfscCode(String ifscCode) {
+		this.ifscCode = ifscCode;
+	}
 	public String getEmp_id() {
 		return emp_id;
 	}
@@ -99,7 +107,8 @@ public class Employee {
 		return "Employee [emp_id=" + emp_id + ", emp_name=" + emp_name + ", emp_address=" + emp_address + ", emp_role="
 				+ emp_role + ", doj=" + doj + ", bank_name=" + bank_name + ", account_no=" + account_no
 				+ ", year_month=" + year_month + ", gross_salary=" + gross_salary + ", net_salary=" + net_salary
-				+ ", tax_component=" + tax_component + ", login_name=" + login_name + ", password=" + password + "]";
+				+ ", tax_component=" + tax_component + ", login_name=" + login_name + ", password=" + password
+				+ ", ifscCode=" + ifscCode + "]";
 	}
 	
 	

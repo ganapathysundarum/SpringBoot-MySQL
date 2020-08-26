@@ -79,6 +79,7 @@ public class EmployeeService {
 			emp.setGross_salary(Float.parseFloat(resultMap.get("gross_salary").toString()));
 			emp.setNet_salary(Float.parseFloat(resultMap.get("net_salary").toString()));
 			emp.setTax_component(Float.parseFloat(resultMap.get("tax_component").toString()));
+			emp.setIfscCode(resultMap.get("ifsc_code").toString());
 			empSet.add(emp);
 
 			model.put("employeesList", empSet);

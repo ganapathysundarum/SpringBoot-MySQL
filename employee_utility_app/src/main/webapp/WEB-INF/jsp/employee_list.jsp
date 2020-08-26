@@ -13,6 +13,7 @@
 					<th>Role</th>
 					<th>DOJ</th>
 					<th>Bank</th>
+					<th>IFSC Code</th>
 					<th>Account No</th>
 					<th>Year Month</th>
 					<th>Gross Salary</th>
@@ -29,6 +30,7 @@
 						<td>${emp.emp_role}</td>
 						<td>${emp.doj}</td>						
 						<td>${emp.bank_name}</td>
+						<td><a href="/retrieve-ifsc?ifscCode=${emp.ifscCode}">${emp.ifscCode}</a></td>
 						<td>${emp.account_no}</td>
 						<td>${emp.year_month}</td>
 						<td>${emp.gross_salary}</td>

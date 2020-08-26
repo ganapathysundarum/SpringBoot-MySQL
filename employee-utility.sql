@@ -81,7 +81,7 @@ BEGIN
     select d.emp_id,d.emp_name,d.emp_address,d.emp_role,d.doj,
     b.bank_name,s.account_no,s.year_month,
     s.gross_salary,s.net_salary,s.tax_component,
-    e.login_name,e.password from 
+    e.login_name,e.password,b.ifsc_code from 
     emp_details d,emp_salary_details s,
     emp_login e,bank_master b 
     where d.emp_id=s.emp_id 
